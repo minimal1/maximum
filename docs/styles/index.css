@@ -1,0 +1,17 @@
+/** @format */
+@import "common/variables.css";
+@import "common/reset.css";
+
+@import "common/container.css";
+@import "common/header.css";
+@import "common/main.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--body-bg);
+  height: 100vh;
+  padding: 50px 70px 0 70px;
+}

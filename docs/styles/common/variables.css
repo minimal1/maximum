@@ -1,0 +1,18 @@
+/** @format */
+
+body {
+  --body-bg: #f8d146;
+  --container-bg: #fbe56b;
+  --yellow: #ffde22;
+  --orange: #ff8928;
+
+  --pink: #ff414e;
+
+  --border-color: #e3e3e3;
+  --header-bg: #f6f6f8;
+
+  --txt-default: #202020;
+  --txt-link: #202020;
+  --txt-link-hover: var(--pink);
+  --txt-link-active: var(--pink);
+}

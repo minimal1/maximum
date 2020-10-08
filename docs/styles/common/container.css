@@ -1,0 +1,11 @@
+/** @format */
+
+.container {
+  background: var(--container-bg);
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 100%;
+  box-shadow: 2px 0px 30px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
