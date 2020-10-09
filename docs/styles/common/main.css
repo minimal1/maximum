@@ -1,16 +1,5 @@
 /** @format */
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.google {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  background: #ffffff;
+.page {
+  height: calc(100% - 100px);
 }

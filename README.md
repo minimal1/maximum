@@ -9,3 +9,7 @@ COPY
 - js
 
 Google - ing
+
+- [x] footer
+- [ ] header
+- [ ] main

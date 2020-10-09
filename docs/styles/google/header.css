@@ -1,0 +1,33 @@
+/** @format */
+
+.google_header {
+  align-self: flex-end;
+  position: relative;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+
+.google_header .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.google_header .links .link-icon {
+  display: inline-block;
+  background-image: url(../../resources/google_icons.png);
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.55;
+}
+.google_header .links .link-icon:hover {
+  opacity: 1;
+}
+
+.modal-menu {
+  position: absolute;
+}

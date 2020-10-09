@@ -1,0 +1,27 @@
+/** @format */
+@import "variables.css";
+
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+.google {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: var(--google-bg);
+  color: var(--google-txt-default);
+  font-size: 14px;
+}
+
+.google a {
+  text-decoration: none;
+  color: var(--google-txt-default);
+}
+
+.google a:hover {
+  text-decoration: underline;
+}

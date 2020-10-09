@@ -6,6 +6,8 @@
 @import "common/header.css";
 @import "common/main.css";
 
+@import "google/index.css";
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,32 @@
+/** @format */
+
+.google_footer {
+  background: var(--google-footer);
+  width: 100%;
+}
+
+.google_footer > div {
+  padding: 10px 30px;
+}
+
+.google_footer .country {
+  border: 1px solid var(--google-border);
+}
+
+.google_footer .etc-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google_footer .etc-info .link + .link {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 665px) {
+  .google_footer .etc-info {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+}
