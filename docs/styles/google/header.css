@@ -28,6 +28,20 @@
   opacity: 1;
 }
 
+.google_header .links .link-btn {
+  color: white;
+  background: var(--google-blue);
+  font-weight: 600;
+  cursor: default;
+}
+
+.google_header .links .link-btn:hover {
+  text-decoration: none;
+}
+.google_header .links .link-btn:focus,
+.google_header .links .link-btn:active {
+  background: var(--google-deepblue);
+}
 .modal-menu {
   position: absolute;
 }

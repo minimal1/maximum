@@ -4,7 +4,12 @@
   --google-bg: #ffffff;
   --google-footer: #f2f2f2;
 
-  --google-txt-default: #6f6f6f;
+  --google-txt-default: #5f6368;
+  --google-txt-hover: #222;
 
   --google-border: #e4e4e5;
+  --google-border-hover: #c6c6c6;
+  --google-blue: #4585f0;
+  --google-deepblue: #3279f3;
+  --google-light-gray: #f8f8f8;
 }
